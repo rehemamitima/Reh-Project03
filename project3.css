@@ -1,0 +1,147 @@
+body{
+    margin: 0px; 
+}
+header, .elevator-pitch{
+    display: grid; 
+    grid-template-columns: repeat(2, 1fr);
+    padding: 0.5% 15%;  
+    margin-bottom: 5%; 
+    /* border: 2px solid blue;  */
+}
+header{
+    margin-top: 3%; 
+}
+.contact{
+    display: flex; 
+    flex-direction: row;  
+}
+.developer-accounts{
+    justify-self: end; 
+}
+.developer-accounts img{
+    width: 32%; 
+    margin-left: 15%; 
+}
+header img{
+    width: 90%; 
+}
+header span{
+    margin-top: 11px; 
+}
+.my-photo{
+    border-radius: 50%;
+    justify-self: end; 
+    align-items: start; 
+    width: 40%; 
+}
+.pitch-written{
+    padding-top: 15%; 
+}
+.pitch-written h1{
+    font-size: 50px; 
+}
+ul li{
+    list-style-type: none;
+}
+ul{
+    padding: 0px; 
+}
+.skills{
+    display: flex; 
+    flex-direction: column; 
+    margin: 0px; 
+    text-align: center; 
+    padding: 5%; 
+    background-color: rgb(235, 225, 225); 
+}
+.language-images{
+   width: 100%; 
+}
+/* Codes for the second layout */
+.projects{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 30px;
+}
+.project1-img{
+    margin: 0% 0%; 
+    grid-column: span 2 / auto;
+    text-align: center; 
+}
+.project1, .project2{
+    grid-column: span 2 / auto;
+}
+.project1{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* grid-gap: 10px;  */
+}
+.project1 h2{
+    grid-column: span 2 / auto;
+    text-align: center; 
+}
+.project1-img img{
+    width: 50%; 
+    /* height: 50%;  */
+   box-shadow: 0 3x 20px blue; 
+}
+.view-project{
+    text-align: center;  
+    /* padding: 0.5% 10%;  */
+    
+    grid-column: span 2 / auto;
+}
+.project2{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* grid-gap: 10px; */
+}
+.view-project h4, .view-project h3{
+    margin: 10px;
+    font-size: 30px;  
+}
+.project1 h2{
+    text-align: center; 
+}
+.project1-img img{
+    width: 90%; 
+    height: 90%; 
+    margin-left: 11%; 
+}
+.project2 h3, .project2 a{
+    text-align: right; 
+}
+.project2-img img{
+    width: 90%; 
+    height: 90%; 
+    margin-right: 15%;
+} 
+    padding:15px; 
+    margin-top: 50px; 
+    text-align: center; 
+    background-color: rgb(235, 225, 225); 
+}
+footer h3{
+    margin-bottom: 1px; 
+}
+footer p{
+    margin-top: 1px; 
+}
+/* Colors and other designs */
+p, ul, h4{
+    color: rgb(117, 116, 116);
+    font-size: 110%; 
+    font-weight: 200px; 
+}
+span{
+    color: rgb(88, 88, 255); 
+    font-weight: bold; 
+}
+.projects a {
+    text-decoration: none; 
+}
+a span{
+    /* border-bottom: 2px solid rgb(92, 91, 91);  */
+    color: rgb(117, 116, 116);
+    padding-bottom: 10px; 
+}
